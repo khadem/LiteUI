@@ -1,0 +1,18 @@
+{
+  "name": "liteui/liteui",
+  "description": "Small server-rendered PHP UI toolkit",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0",
+    "ext-session": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "LiteUI\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "php tests/run.php"
+  }
+}
